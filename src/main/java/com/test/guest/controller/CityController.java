@@ -31,7 +31,7 @@ public class CityController {
 
     @RequestMapping("/get/{id}")
     public ResponseEntity<Object> findCities(@PathVariable Long id) {
-        log.info("Fetching all City {}",id);
+        log.info("Fetching one City {}",id);
         City city =  cityService.findCityById(id);
 
         return new ResponseEntity<Object>(city,HttpStatus.FOUND);
