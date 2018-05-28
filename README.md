@@ -13,10 +13,12 @@ localhost:8000//city/add
 }
 # 5. Get City
 
-localhost:8000//city/get?1
+# localhost:8000//city/get?1
+
 # 6. Save guest profile info
 
-localhost:8000//guest/profile
+# localhost:8000//guest/profile
+
 {
 "firstName":"Asendra",
 "lastName":"Kushwaha",
