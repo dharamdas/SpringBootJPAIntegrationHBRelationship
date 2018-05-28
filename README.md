@@ -5,14 +5,17 @@
 After installing Postgress run the application with below commad
     1. mvn spring-boot:run
 4. run the below post main to add/update/fetch the values from DB
+
 localhost:8000//city/add
 {
 	"name":"Bangalore",
 	"population":"2200000"
 }
 5. Get City
+
 localhost:8000//city/get?1
 6. Save guest profile info
+
 localhost:8000//guest/profile
 {
 "firstName":"Asendra",
@@ -21,5 +24,6 @@ localhost:8000//guest/profile
 "password":"testing"
 }
 7. Get Profile Info
+
 localhost:8000//guest/profile/21
     
